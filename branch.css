@@ -1,11 +1,22 @@
-div-whiteSmoke {
-        align-content: center;
-        background-color: aliceblue;
+
+body {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
 
 }
 
-h2 {
-        color: yellowgreen;
-        background-color: lightgray;
-        text-align: center;
-        }
+#div-whiteSmoke {
+        align-content: center;
+        background-color: aliceblue;
+        
+
+}
+
+
+#div-blueShadow {
+        background-color: green;
+        color:black;    
+}
+
+
