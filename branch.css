@@ -1,9 +1,19 @@
-div-whiteSmoke {
+
+body {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+}
+
+#div-whiteSmoke {
         align-content: center;
         background-color: aliceblue;
+        
 
 }
 
 #div-blueShadow {
         background-color: green;
+        color:black;    
 }
